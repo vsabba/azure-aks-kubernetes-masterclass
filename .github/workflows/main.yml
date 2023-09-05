@@ -1,0 +1,13 @@
+- name: Nobl9 sloctl action
+  # You may pin to the exact commit or the version.
+  # uses: nobl9/nobl9-action@183c396819c0b486afd32d5c975c2ee8b1354023
+  uses: nobl9/nobl9-action@v0.2.3
+  with:
+    # Client ID
+    client_id: 
+    # Client Secret
+    client_secret: 
+    # The path or glob pattern to the configuration in YAML format
+    sloctl_yml: 
+    # Submits server-side request without persisting the configured resources
+    dry_run: # optional, default is false
